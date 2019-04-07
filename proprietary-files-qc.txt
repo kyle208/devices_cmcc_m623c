@@ -385,7 +385,7 @@ vendor/lib/libthermalioctl.so
 # Time services
 app/TimeService/TimeService.apk
 bin/time_daemon
-vendor/lib/libtime_genoff.so
+-vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
 
 # WLAN
@@ -505,7 +505,3 @@ bin/wcnss_service
 etc/logmask/default_diag_mask.cfg
 etc/logmask/dynamic_debug_mask.cfg
 etc/logmask/qdss.cfg
-
-#usr
-usr/idc/ft5x0x_ts.idc
-usr/idc/goodix.idc
