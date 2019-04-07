@@ -1,9 +1,7 @@
-# 这是一个M623C的第一个基于CM12.1的rom。
-
+这是一个M623C的第一个基于CM12.1的rom。
 基于官方5.1.1版本（China_Mobile_A1_01.02.02RPD）
 
 基于coolpad-CP8297_T01 CM修改
-
 
 bug:
 
