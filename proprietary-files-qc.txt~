@@ -135,7 +135,7 @@ vendor/lib/libchromatix_sp2508_default_video.so
 # Cameralib
 vendor/lib/libmmcamera_imx219_q8n13a.so 
 vendor/lib/libchromatix_imx219_q8n13a_liveshot.so 
-vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so 
+vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so  
 vendor/lib/libmmcamera_mt9m114.so 
 vendor/lib/libchromatix_imx219_q8n13a_common.so 
 vendor/lib/libmmcamera_guangzhen_ov8858_eeprom.so 
@@ -199,7 +199,6 @@ vendor/lib/libdpmnsrm.so
 
 # DRM
 bin/qseecomd
-lib/libdrmdecrypt.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
@@ -237,6 +236,7 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libc2d30-a3xx.so
+vendor/lib/libc2d30-a4xx.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libgsl.so
@@ -326,6 +326,7 @@ lib/librmnetctl.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
 vendor/lib/libmdmdetect.so
+vendor/lib/libmdsprpc.so
 vendor/lib/libnetmgr.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libril-qc-qmi-1.so
@@ -361,8 +362,6 @@ lib/libjni_latinime.so
 lib/libdashplayer.so
 lib/libmediaplayerservice.so
 lib/libjnigraphics.so
-lib/libffmpeg.so
-lib/libffmpeg_cntv.so
 lib/libcamera_metadata.so
 lib/libkeystore_binder.so
 lib/libloc_core.so
@@ -385,6 +384,7 @@ lib/libjni_eglfence.so
 lib/libGLES_trace.so
 lib/libGLESv1_CM.so
 lib/libGLESv2.so
+lib/
 
 # vendorlib
 vendor/lib/lib-rtpcommon.so 
@@ -415,11 +415,18 @@ vendor/lib/libts_face_beautify_hal.so
 vendor/lib/lib-rtpdaemoninterface.so 
 vendor/lib/lib-imsxml.so 
 vendor/lib/lib-imsvt.so 
-vendor/lib/libcryptfs_hw.so 
+vendor/lib/libCommandSvc.so
+vendor/lib/libcsvt_jni.so
 vendor/lib/lib-rcsimssjni.so 
 vendor/lib/lib-rcsjni.so 
+vendor/lib/librcs_jni.so
 vendor/lib/lib-imsqimf.so
 vendor/lib/libacdb-fts.so
+vendor/lib/libdrmdecrypt.so
+vendor/lib/libextendedremotedisplay.so
+vendor/lib/libcalmodule_senodia.so
+vendor/lib/libacdbmapper.so
+vendor/lib/libmm-als.so
 
 # modules
 lib/modules/mmc_block_test.ko
