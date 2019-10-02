@@ -161,8 +161,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Camera2 \
     camera.msm8916 \
-    libmm-qcamera
-
+    libmm-qcamera \
+    Snap
+    
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    camera.device@1.0-impl
+    
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images

@@ -165,6 +165,8 @@ vendor/lib/libmmcamera_sp2508.so
 vendor/lib/libmmcamera_s5k4h5_8916.so
 vendor/lib/libmmcamera_s5k4h5_ofilm_eeprom.so
 vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so
+lib/libjni_snapcammosaic.so
+lib/libjni_snapcamtinyplanet.so
 
 # CNE
 bin/cnd
@@ -237,6 +239,7 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libc2d30-a3xx.so
+vendor/lib/libc2d30-a4xx.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libgsl.so
@@ -278,7 +281,7 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libSHIMDivxDrm.so
 
 # Perf
-bin/mpdecision
+#bin/mpdecision
 vendor/lib/libqti-perfd-client.so
 
 # Postprocessing
@@ -292,7 +295,6 @@ vendor/lib/libmm-qdcm.so
 bin/irsc_util
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
-etc/data/qmi_config.xml
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
@@ -336,7 +338,6 @@ vendor/lib/libxml.so
 # Sensors
 lib/hw/camera.msm8916.so
 lib/hw/lights.msm8916.so
-lib/hw/power.qcom.so
 lib/hw/sensors.msm8916.so
 
 # Thermal
@@ -351,7 +352,7 @@ bin/time_daemon
 vendor/lib/libTimeService.so
 
 # WLAN
-lib/libwcnss_qmi.so
+lib/modules/pronto/pronto_wlan.ko
 
 # lib
 lib/libjni_jpegstream.so
@@ -361,8 +362,6 @@ lib/libjni_latinime.so
 lib/libdashplayer.so
 lib/libmediaplayerservice.so
 lib/libjnigraphics.so
-lib/libffmpeg.so
-lib/libffmpeg_cntv.so
 lib/libcamera_metadata.so
 lib/libkeystore_binder.so
 lib/libloc_core.so
@@ -415,36 +414,13 @@ vendor/lib/libts_face_beautify_hal.so
 vendor/lib/lib-rtpdaemoninterface.so 
 vendor/lib/lib-imsxml.so 
 vendor/lib/lib-imsvt.so 
-vendor/lib/libcryptfs_hw.so 
 vendor/lib/lib-rcsimssjni.so 
 vendor/lib/lib-rcsjni.so 
 vendor/lib/lib-imsqimf.so
 vendor/lib/libacdb-fts.so
 
-# modules
-lib/modules/mmc_block_test.ko
-lib/modules/evbug.ko
-lib/modules/pronto/pronto_wlan.ko
-lib/modules/gpio_input.ko
-lib/modules/oprofile.ko
-lib/modules/spidev.ko
-lib/modules/gpio_matrix.ko
-lib/modules/msm-buspm-dev.ko
-lib/modules/mcKernelApi.ko
-lib/modules/mmc_test.ko
-lib/modules/radio-iris-transport.ko
-lib/modules/gpio_axis.ko
-lib/modules/gpio_output.ko
-lib/modules/gpio_event.ko
-lib/modules/test-iosched.ko
-lib/modules/dma_test.ko
-lib/modules/mcDrvModule.ko
-lib/modules/ansi_cprng.ko
-
 # etc
 vendor/etc/calmodule.cfg
-vendor/etc/msm_irqbalance.conf
-vendor/etc/RIDL/qdss.cfg
 
 # bin
 bin/adb
@@ -456,4 +432,3 @@ bin/ims_rtp_daemon
 bin/mm-qcamera-app
 bin/perfd
 bin/wcnss_service
-

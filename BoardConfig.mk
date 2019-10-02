@@ -73,7 +73,7 @@ BOARD_CAMERA_SENSORS := \
     ov8865_q8v18a \
     ov2680_skuhf \
     ov2680_5987fhq
-TARGET_USE_VENDOR_CAMERA_EXT := true
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 # DPM NSRM Feature
@@ -124,6 +124,10 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
+
+# Shims
+TARGET_LD_SHIM_LIBS += \
+    /system/vendor/lib/libmmcamera2_imglib_modules.so|libshim_camera.so
 
 # PowerHAL
 TARGET_POWERHAL_VARIANT := qcom
