@@ -253,6 +253,11 @@ vendor/lib/libsc-a3xx.so
 vendor/lib/libscale.so
 
 # Graphics firmware
+etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg
+etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat
+etc/firmware/modem_config/mcfg_sw.mbn
+etc/firmware/wcd9306/wcd9306_anc.bin
+etc/firmware/wcd9306/wcd9306_mbhc.bin
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
 etc/firmware/a225p5_pm4.fw
